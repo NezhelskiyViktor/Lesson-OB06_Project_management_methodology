@@ -1,7 +1,6 @@
 import hero
 import game
 
-
 player = hero.Hero('Игрок')
 computer = hero.Hero('Компьютер')
 
