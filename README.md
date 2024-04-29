@@ -9,5 +9,5 @@
 |                          |             |         | Создать модуль game.py |
 |                          |             |         | Создать модуль main.py |
 |                          |   |  | class Hero |
-|   |   | class Game |  |
+|   |   |  | class Game |
 |  |  |  | метод битвы |

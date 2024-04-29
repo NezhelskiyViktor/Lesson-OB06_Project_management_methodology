@@ -10,7 +10,8 @@ class Game:
         # и объявляем победителя.
         print('Игра "Битва героев"')
         while self.player.is_alive() and self.computer.is_alive():
-            print(f'Ходит {self.player.name}')
+            print(f'Ходит {self.player.name} (продолжить <Enter>)')
+            input()
             self.player.attack(self.computer)
             print(f'Здоровье {self.computer.name}: {self.computer.health}')
             if not self.computer.is_alive():
